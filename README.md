@@ -1,5 +1,5 @@
 # Aibrite NLP Sandbox
-An NLP sandbox, utilizing live tweets and labeling the tweets positive and negative.
+A Natural Language Processing sandbox, utilizing live tweets and labeling the tweets positive and negative.
 The training data set is `nltk`'s built-in review data set.
 Application also includes a plotter that displays the live positive/negative line of the tweets.
 
