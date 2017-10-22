@@ -4,7 +4,7 @@ The training data set is nltk's built-in review data set.
 Application also includes a plotter that displays the live positive/negative line of the tweets.
 
 #About the App
-The application utilizes `nltk`'s built-in tools and data sets to train a model to detect positive and negative quotes.
+The application utilizes `nltk`'s built-in tools and data sets to train a model, in order to detect positive and negative quotes.
 The app simultaneously utilizes:
 1. Multinomial Naive Bayes Classifier
 2. Bernoulli Naive Bayes Classifier
