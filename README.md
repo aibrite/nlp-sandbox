@@ -1,6 +1,6 @@
 # Aibrite NLP Sandbox
 An NLP sandbox, utilizing live tweets and labeling the tweets positive and negative.
-The training data set is nltk's built-in review data set.
+The training data set is `nltk`'s built-in review data set.
 Application also includes a plotter that displays the live positive/negative line of the tweets.
 
 # About the App
@@ -14,6 +14,8 @@ The app simultaneously utilizes:
 6. NuSVC Naive Bayes Classifier
 
 Also, a `Voted_Classifier` is included, that implements voting to all of the above classifiers and returns the highest voted label.
+
+Once the model is trained, it is saved in a `pickle` file and will be loaded everytime the app is run.
 
 # How to Run
 1. Replace the consumer key and the secret key in `twitter/twitterbase.py` with your keys.
